@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-hide-keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-hide-keyboard",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablopenna/cordova-plugin-hide-keyboard.git"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablopenna/cordova-plugin-hide-keyboard/issues"
+  },
+  "homepage": "https://github.com/pablopenna/cordova-plugin-hide-keyboard#readme"
+}
