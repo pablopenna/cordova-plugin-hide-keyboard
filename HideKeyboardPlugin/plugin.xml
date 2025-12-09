@@ -1,2 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-hide-keyboard" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>HideKeyboardPlugin</name><js-module name="HideKeyboardPlugin" src="www/HideKeyboardPlugin.js"><clobbers target="cordova.plugins.HideKeyboardPlugin" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="HideKeyboardPlugin"><param name="android-package" value="cordova-plugin-hide-keyboard.HideKeyboardPlugin" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/HideKeyboardPlugin.java" target-dir="src/cordova-plugin-hide-keyboard/HideKeyboardPlugin" /></platform></plugin>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-hide-keyboard"
+    version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>HideKeyboardPlugin</name>
+    <js-module name="HideKeyboardPlugin" src="www/HideKeyboardPlugin.js">
+        <clobbers target="cordova.plugins.HideKeyboardPlugin" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="HideKeyboardPlugin">
+                <param name="android-package"
+                    value="cordova-plugin-hide-keyboard.HideKeyboardPlugin" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/HideKeyboardPlugin.java"
+            target-dir="src/cordova-plugin-hide-keyboard/HideKeyboardPlugin" />
+    </platform>
+</plugin>
