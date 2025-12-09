@@ -9,12 +9,10 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="HideKeyboardPlugin">
-                <param name="android-package"
-                    value="com.rockmary.cordova.plugins.HideKeyboardPlugin" />
+                <param name="android-package" value="com.rockmary.cordova.plugins.HideKeyboardPlugin" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/com/rockmary/cordova/plugins/HideKeyboardPlugin.java"
-            target-dir="src/cordova-plugin-hide-keyboard/HideKeyboardPlugin" />
+        <source-file src="src/com/rockmary/cordova/plugins/HideKeyboardPlugin.java" target-dir="src/com/rockmary/cordova/plugins" />
     </platform>
 </plugin>
