@@ -4,17 +4,17 @@
     xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>HideKeyboardPlugin</name>
     <js-module name="HideKeyboardPlugin" src="www/HideKeyboardPlugin.js">
-        <clobbers target="cordova.plugins.HideKeyboardPlugin" />
+            <clobbers target="cordova.plugins.HideKeyboardPlugin" />
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="HideKeyboardPlugin">
                 <param name="android-package"
-                    value="cordova-plugin-hide-keyboard.HideKeyboardPlugin" />
+                    value="com.rockmary.cordova.plugins.HideKeyboardPlugin" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/HideKeyboardPlugin.java"
+        <source-file src="src/com/rockmary/cordova/plugins/HideKeyboardPlugin.java"
             target-dir="src/cordova-plugin-hide-keyboard/HideKeyboardPlugin" />
     </platform>
 </plugin>

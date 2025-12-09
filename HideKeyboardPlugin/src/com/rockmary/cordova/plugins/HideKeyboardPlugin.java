@@ -1,4 +1,4 @@
-package cordova-plugin-hide-keyboard;
+package com.rockmary.cordova.plugins;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
